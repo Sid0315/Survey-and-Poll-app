@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding:0;
+}
+.main_div{
+    background: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw; 
+}
+.box {
+    width: 80vw;
+    height: 40vh;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2); 
+    background: #f3f2ef;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.servey_heading{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.servey_qus{
+    position: absolute;
+    font-size: 1rem;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+.r_btn {
+    position: absolute;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.uline{
+    position: absolute;
+    width: 35vw;
+    height: 15px; 
+    background: #bcc7d0;
+    margin-top: 20px;
+    margin-left: 20rem;
+    border-radius: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnx{
+    position: absolute;
+    margin-top:-17rem;
+    margin-left: 45rem;
+    font-weight: 500 ;
+    font-size: 16px ;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 50px;
+    border-color: rgb(0, 102, 255);
+    background-color: rgb(0, 102, 255);
+    color: #f3f2ef;
+    
 }
 
-.App-link {
-  color: #61dafb;
+/* login page */
+
+.log_main_div{
+    background: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+.log_box{
+    width: 30vw;
+    height: 30vh;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2); 
+    background: #f3f2ef;
+    position: relative;
+    border-radius: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inp_one{ 
+    margin-top: 4rem;
+}
+
+.inp_two{
+    margin-top: 2rem;
+}
+
+form .btn{
+    position: absolute;
+margin-top: -5px;
+    margin-left: 10rem;
+    font-weight: 500 ;
+    font-size: 16px ;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 50px;
+}
+
+.atmp_rem {
+    margin-top: 0.5rem;
+    margin-left: 7rem;
+    position: absolute;
+    font-weight: 500 ;
+    font-size: 16px ;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 50px;
+    width: 15rem;
+    height: 40px;
+    background-color: rgb(240, 6, 6);
+    text-align: center;
+    color: #f3f2ef;
 }
