@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Survey-and-Poll-app/static/css/main.32edbf5b.css",
+    "main.js": "/Survey-and-Poll-app/static/js/main.2fe1ee49.js",
+    "static/js/787.a6bfe297.chunk.js": "/Survey-and-Poll-app/static/js/787.a6bfe297.chunk.js",
+    "index.html": "/Survey-and-Poll-app/index.html",
+    "main.32edbf5b.css.map": "/Survey-and-Poll-app/static/css/main.32edbf5b.css.map",
+    "main.2fe1ee49.js.map": "/Survey-and-Poll-app/static/js/main.2fe1ee49.js.map",
+    "787.a6bfe297.chunk.js.map": "/Survey-and-Poll-app/static/js/787.a6bfe297.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32edbf5b.css",
+    "static/js/main.2fe1ee49.js"
+  ]
+}
